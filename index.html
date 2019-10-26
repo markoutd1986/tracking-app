@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="assets/style/style.css">
+    </head>
+    </html>
+    <body>
+        <div id="artBoard">
+            <div id="welcomeScreen">
+                <h1>Welcome!</h1>
+                <p>Overview of your activity</p>
+            </div>
+            <div id="dayBoxes">
+                <div class="dayBox" id="day0" param="0">
+                    10<br />
+                    MON
+                </div>
+                <div class="dayBox" id="day1" param="1">
+                    11<br />
+                    TUE
+                </div>
+                <div class="dayBox" id="day2" param="2">
+                    12<br />
+                    WED
+                </div>
+                <div class="dayBox" id="day3" param="3">
+                    13<br />
+                    THU
+                </div>
+                <div class="dayBox" id="day4" param="4">
+                    14<br />
+                    FRI
+                </div>
+            </div>
+            <div id="activity">
+                <div>
+                    <div class="elipse">
+                        <img src="assets/img/baseline-timer-24px.svg" alt="timer">
+                    </div>
+                    <div class="textBesideIcons">
+                        <h3>Activity</h3>
+                        <h4>Average</h4>
+                    </div>
+                </div>
+                <div id="timerDistance">
+                    <p id="timeInWalk"></p>
+                </div>
+            </div>
+            <div id="steps">
+                <div>
+                    <div class="elipse">
+                        <img src="assets/img/baseline-directions_run-24px.svg" class="imgSvg" alt="timer">
+                    </div>
+                    <div class="textBesideIcons">
+                        <h3>Steps</h3>
+                        <h4>Total</h4>
+                    </div>
+                    <div class="numCount">
+                        <p id="numberOfSteps"></p>
+                    </div>
+                </div>
+            </div>
+            <div id="calories">
+                <div>
+                    <div class="elipse">
+                        <img src="assets/img/baseline-whatshot-24px.svg" class="imgSvg" alt="timer">
+                    </div>
+                    <div class="textBesideIcons">
+                        <h3>Calories</h3>
+                        <h4>Total Burned</h4>
+                    </div>
+                    <div class="numCount" id="numberOfCalories">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="assets/js/main.js"></script>
+    </body>    
+</html>
